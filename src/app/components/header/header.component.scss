@@ -1,0 +1,9 @@
+@import '../../../assets/styles/variables.scss';
+
+.mat-toolbar {
+  background-color: $black;
+}
+
+.mat-toolbar img:hover {
+  cursor: pointer;
+}
