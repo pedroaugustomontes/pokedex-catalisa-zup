@@ -4,11 +4,10 @@
   width: 100%;
   margin-top: 20px;
   text-align: center;
-  height: 400px;
 }
 
 table {
-  min-width: 80%;
+  min-width: 60%;
   margin: auto;
   text-align: center;
 }
@@ -41,7 +40,7 @@ table {
 }
 
 ::ng-deep.mat-paginator {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
