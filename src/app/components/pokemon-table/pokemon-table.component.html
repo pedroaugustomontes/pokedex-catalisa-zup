@@ -2,7 +2,7 @@
 
   <mat-form-field>
     <mat-label>Pesquisar Pokemon</mat-label>
-    <input matInput (keyup)="applyFilter($event)" placeholder="Ex: Pikachu" #input>
+    <input type="pesquisar" matInput (keyup)="applyFilter($event)" placeholder="Ex: Pikachu" #input>
   </mat-form-field>
 
   <div>
@@ -37,6 +37,6 @@
       </tr>
     </table>
 
-    <mat-paginator [pageSizeOptions]="[25, 50, 100, 150]"></mat-paginator>
+    <mat-paginator [pageSizeOptions]="[50, 100, 150]"></mat-paginator>
   </div>
 </div>
