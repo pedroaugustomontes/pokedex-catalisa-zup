@@ -3,6 +3,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
+// import {MatSortModule} from '@angular/material/sort';
+
 
 @Component({
   selector: 'app-pokemon-table',

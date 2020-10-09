@@ -1,8 +1,21 @@
 @import "../../../assets/styles/variables.scss";
 
 footer {
+  background-color: $yellow;
   display: flex;
   flex: 0;
   justify-content: center;
-  height: 80px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  background-color: $red;
+  font-weight: bold;
+  padding: 1rem;
+  color: $yellow;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
 }
